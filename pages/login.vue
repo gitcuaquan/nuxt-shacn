@@ -11,6 +11,7 @@
 </script>
 
 <template>
+  <BallFollower />
   <div style="height: 100vh !important;" class="w-full flex items-center justify-center">
     <Card class="w-[350px]">
       <CardHeader>
@@ -18,24 +19,36 @@
           Login
         </CardTitle>
         <CardDescription>
-          Enter your email below to login to your account.
+          Enter your email below to login to your account
         </CardDescription>
       </CardHeader>
-      <CardContent class="grid gap-4">
-        <div class="grid gap-2">
-          <Label for="email">Email</Label>
-          <Input id="email" type="email" placeholder="m@example.com" required />
+      <CardContent>
+        <div class="grid gap-4">
+          <div class="grid gap-2">
+            <Label for="email">Email</Label>
+            <Input id="email" type="email" placeholder="m@example.com" required />
+          </div>
+          <div class="grid gap-2">
+            <div class="flex items-center">
+              <Label for="password">Password</Label>
+              <a href="#" class="ml-auto inline-block text-sm underline">
+                Forgot your password?
+              </a>
+            </div>
+            <Input id="password" type="password" required />
+          </div>
+          <Button type="submit" class="w-full">
+            Login
+          </Button>
         </div>
-        <div class="grid gap-2">
-          <Label for="password">Password</Label>
-          <Input id="password" type="password" required />
+        <div class="mt-4 text-center text-sm">
+          Don't have an account?
+          <a href="#" class="underline">
+            Sign up
+          </a>
         </div>
       </CardContent>
-      <CardFooter>
-        <Button class="w-full">
-          Sign in
-        </Button>
-      </CardFooter>
     </Card>
   </div>
+
 </template>
