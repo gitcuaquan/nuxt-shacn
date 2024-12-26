@@ -2,6 +2,19 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Introduction
+
+This project is a minimal starter template for a Nuxt.js application. It utilizes several UI components from a custom library and is designed to provide a clean and simple login interface.
+
+### Libraries Used
+
+- **Nuxt.js**: A powerful Vue.js framework for building server-side rendered applications.
+- **Custom UI Components**: Includes `Button`, `Card`, `Input`, and `Label` components for building the user interface.
+
+### How to Run
+
+Follow the steps below to set up and run the project.
+
 ## Setup
 
 Make sure to install dependencies:
@@ -73,3 +86,7 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+### Creator
+
+This project was created by Quân.
